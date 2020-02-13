@@ -23,11 +23,10 @@ Upon logging into ACME Online Systems a user will be greeted. The greeting will 
    * 7pm - 5am - provide a night message
 3. Display a birthday message on the user's birthday - Append to the greeting _"have a great birthday!"_
 4. Display the user's age in the birthday message
-5. Display the user's top priorities for the day
 
 ## Instructions
 * For this exercise we are only going to be building a console application so we don't have to introduce presentation code and frameworks.
-* There are some classes already defined to help get you started (User, WorkItem, TimeProvider)
+* There are some classes already defined to help get you started (User & TimeProvider)
 * Install [Mobster](http://mobster.cc/) to manage drivers in the session
 
 ## The Three Rules of TDD
