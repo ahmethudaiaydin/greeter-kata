@@ -2,8 +2,8 @@
 
 namespace Greeter_Kata
 {
-	public interface ITimeProvider
-	{
-		DateTime Now { get; }
-	}
+    public interface ITimeProvider
+    {
+        DateTime Now { get; }
+    }
 }

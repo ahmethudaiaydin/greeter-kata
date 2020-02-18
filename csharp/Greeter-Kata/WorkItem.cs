@@ -2,7 +2,13 @@
 {
     public class WorkItem
     {
-        private string description;
-        private int priority;
+        public string Description { get; }
+        public int Priority { get; }
+
+        public WorkItem(string description, int priority)
+        {
+            Description = description;
+            Priority = priority;
+        }
     }
 }

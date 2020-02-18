@@ -15,11 +15,11 @@ namespace Greeter_Kata
             workItems = new List<WorkItem>();
         }
 
-		public string FirstName { get; }
+        public string FirstName { get; }
 
-		public string LastName { get; }
+        public string LastName { get; }
 
-		public DateTime Birthdate { get; }
+        public DateTime Birthdate { get; }
 
         public IEnumerable<WorkItem> WorkItems => workItems;
 
