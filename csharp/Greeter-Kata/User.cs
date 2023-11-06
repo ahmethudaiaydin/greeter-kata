@@ -27,5 +27,10 @@ namespace Greeter_Kata
         {
             workItems.Add(workItem);
         }
+
+        public string GetUserName()
+        {
+            return $"{FirstName} {LastName}";
+        }
     }
 }
