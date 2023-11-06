@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29409.12
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greeter-Kata", "Greeter-Kata\Greeter-Kata.csproj", "{69717691-1FE1-4958-BFC5-B4EBEF22410D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreeterKata.Domain", "Greeter-Kata\GreeterKata.Domain.csproj", "{69717691-1FE1-4958-BFC5-B4EBEF22410D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greeter-Kata.Tests", "Greeter-Kata.Tests\Greeter-Kata.Tests.csproj", "{0ACAAE6E-024F-4931-824F-0A3296807AFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Greeter-Kata.Tests", "Greeter-Kata.Tests\Greeter-Kata.Tests.csproj", "{0ACAAE6E-024F-4931-824F-0A3296807AFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreeterKata.ConsoleApp", "GreeterKata.ConsoleApp\GreeterKata.ConsoleApp.csproj", "{8EA96A0E-B931-479A-AD9E-722F68155CAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{0ACAAE6E-024F-4931-824F-0A3296807AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0ACAAE6E-024F-4931-824F-0A3296807AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0ACAAE6E-024F-4931-824F-0A3296807AFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EA96A0E-B931-479A-AD9E-722F68155CAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EA96A0E-B931-479A-AD9E-722F68155CAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EA96A0E-B931-479A-AD9E-722F68155CAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EA96A0E-B931-479A-AD9E-722F68155CAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
